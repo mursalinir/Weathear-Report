@@ -1,0 +1,4 @@
+{
+    'valueA',
+        attributeB; 'valueB';
+}
