@@ -1,14 +1,20 @@
-# vue_weather
+# Weather-Report
 
 ## Screenshots from app:
 ```
-cold weather
+cloud weather
 ```
-![image](https://user-images.githubusercontent.com/63835313/167329348-c5e5b405-10d0-4320-9e58-db0ed1db1b58.png)
+![cloud](https://user-images.githubusercontent.com/7901643/175646031-7527769d-912a-4830-be95-1c37b4ce2fae.jpg)
 ```
-warm weather
+rainy weather
 ```
-![image](https://user-images.githubusercontent.com/63835313/167329468-873a932c-9ae1-4290-b06e-e91a7036590c.png)
+![rain](https://user-images.githubusercontent.com/7901643/175646089-8e572bc7-7ff1-4295-9eba-107266116f0e.jpg)
+```
+clear weather
+```
+![clear](https://user-images.githubusercontent.com/7901643/175646230-0e84962a-2d0b-49db-99ab-11b265252e9b.jpg)
+
+
 
 
 
