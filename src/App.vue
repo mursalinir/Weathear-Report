@@ -82,7 +82,7 @@
       </div>
       <div class="footer-text">
         Developed by <span>Mursalin Islam</span>        
-        <a href="https://github.com/mursalinir/vue-weather" target="_blank" class="link">
+        <a href="https://github.com/mursalinir/Weathear-Report" target="_blank" class="link">
           Github Repository
         </a>
       </div>
