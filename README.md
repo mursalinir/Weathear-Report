@@ -1,6 +1,10 @@
 # Weather-Report
-
+[View Live](https://mursalinir.github.io/Weathear-Report/)
 ## Screenshots from app:
+```
+Overview
+```
+
 ```
 cloud weather
 ```
@@ -14,7 +18,8 @@ clear weather
 ```
 ![clear](https://user-images.githubusercontent.com/7901643/175646230-0e84962a-2d0b-49db-99ab-11b265252e9b.jpg)
 
-
+### API Key
+- Create Api Key from [OpenWeatherMap](https://openweathermap.org). 
 
 
 
