@@ -1,3 +1,5 @@
 module.exports = {
-  publicPath: "/vue-weather-app/",
-};
+  publicPath: process.env.NODE_ENV === 'production'
+    ? '/Weather-Report/'
+    : '/'
+}
