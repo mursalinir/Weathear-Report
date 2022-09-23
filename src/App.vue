@@ -103,7 +103,7 @@ export default {
       api_key: "85c1d88ec81c35f0c480a491e3562bc3",
       url_base: "https://api.openweathermap.org/data/2.5/",
       query: "",
-      default: "Miyazaki",
+      default: "Tokyo",
       default2: "Dhaka",
       weather: {},
       DefaultWeather: {},
