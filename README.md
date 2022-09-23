@@ -1,7 +1,7 @@
 # Weather-Report
 [View Live](https://mursalinir.github.io/Weathear-Report/)
 ## Overview
-It is a web application built with VueJS framework. Here I used openweathermap API for collect realtime weather data of any city in the world. Here is a search box to search weather report of any city. Here Also I used conditional background to make the application attractive. For example if the weather is rainy then the background will show a rainy animation. Similarly sunny, cloudy, and snowy animated background changes depend on the weather. For the first time whrn the app will be load, there you can see two default location's weather "Dhaka" and "Tokyo", you can search for any city by typing the city name in search box.
+It is a web application built with VueJS framework. Here I used openweathermap API for collect realtime weather data of any city in the world. Here is a search box to search weather report of any city. Here Also I used conditional background to make the application attractive. For example if the weather is rainy then the background will show a rainy animation. Similarly sunny, cloudy, and snowy animated background changes depend on the weather. For the first time when the app will be load, there you can see two default location's weather "Dhaka" and "Tokyo", you can search for any city by typing the city name in search box.
 <br/>
 <br/>
 ## Screenshots from app:
