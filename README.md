@@ -56,7 +56,7 @@ Navigate to gitignore file and remove dist folder from the list:
 Create vue.config.js file in the root level of project and paste following code:
 ```
 module.exports = {
-  publicPath: '/weather/'
+  publicPath: '/Weathear-Report/'
 }
 ```
 Create path: /src/router/index.js/ and pase this code:
