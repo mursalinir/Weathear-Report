@@ -46,3 +46,57 @@ npm run lint
 
 ### Customize configuration
 See [Configuration Reference](https://cli.vuejs.org/config/).
+
+
+## Deploy Vue app with GitHub page:
+Navigate to gitignore file and remove dist folder from the list:
+
+![step1](https://user-images.githubusercontent.com/7901643/195412411-5f148fd6-8725-43a7-b1d4-ce09c31c2fea.png)
+
+Create vue.config.js file in the root level of project and paste following code:
+```
+module.exports = {
+  publicPath: '/Weathear-Report/'
+}
+```
+Create path: /src/router/index.js/ and pase this code:
+```
+import { createWebHistory, createRouter } from 'vue-router'
+import BillPage from '@/views/BillPage.vue'
+import Products from '@/views/Products.vue'
+
+const routes = [
+	{
+		path: '/',
+		name: 'products',
+		component: Products
+	},
+    {
+        path: '/billPage',
+        name: 'BillPage',
+        component: BillPage
+    }
+];
+
+const router = createRouter({
+	history: createWebHistory('/Weathear-Report/'),
+	routes,
+});
+
+export default router;
+```
+Build production version of the project:
+
+```
+npm run build
+```
+
+Stage all changes.
+
+Commit all changes
+
+Push dist folder to the gh-pages remote branch on GitHub:
+```
+git subtree push --prefix dist origin gh-pages
+```
+Done!
