@@ -51,7 +51,7 @@ See [Configuration Reference](https://cli.vuejs.org/config/).
 ## Deploy Vue app with GitHub page:
 Navigate to gitignore file and remove dist folder from the list:
 
-![step1](https://user-images.githubusercontent.com/7901643/195411918-5329fc33-49bf-4fc6-9525-178bc5010237.png
+![step1](https://user-images.githubusercontent.com/7901643/195412411-5f148fd6-8725-43a7-b1d4-ce09c31c2fea.png)
 
 Create vue.config.js file in the root level of project and paste following code:
 ```
